@@ -2,7 +2,7 @@
 
 :root {
   --white: hsl(0, 0%, 100%);
-  --light-gray: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 }
@@ -20,7 +20,7 @@ img {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-  background-color: var(--grayish-blue);
+  background-color: var(--light-gray);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,9 @@ body {
   font-weight: 400;
   text-align: center;
   color: var(--grayish-blue);
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 16px;
 
 }
 
