@@ -7,6 +7,26 @@
   --dark-blue:hsl(218, 44%, 22%);
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: var(--grayish-blue);
+}
+
+.container {
+  background-color: var(--white);
+  border-radius: 10px;
+
+}
+
+.qr-image {
+  border-radius: 10px;
+  margin-left: auto;
+margin-right: auto;
 }
